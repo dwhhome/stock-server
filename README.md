@@ -4,7 +4,7 @@
 # 实现技术
 springboot+mybatis+redis
 
-#数据库代码
+# 数据库代码
   CREATE DATABASE /*!32312 IF NOT EXISTS*/`shop` /*!40100 DEFAULT CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci */;
 
   USE `shop`;
@@ -23,7 +23,7 @@ springboot+mybatis+redis
 
   insert  into `product_stock`(`product_id`,`product_cnt`) values (1,100);
  
-#测试方式
+# 测试方式
   更新商品库存：/product/stock   (put)
   查询商品库存：/product/{id}    (get)
 
